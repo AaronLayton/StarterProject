@@ -1,0 +1,20 @@
+{
+  "name": "webpacktest",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Aaron Layton <aaron.r.layton@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "content/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

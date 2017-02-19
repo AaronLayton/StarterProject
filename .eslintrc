@@ -1,0 +1,36 @@
+{
+	"rules": {
+		"strict": 0,
+		"no-console": 0,
+		"indent": [
+			2,
+			4
+		],
+		"quotes": [
+			2,
+			"single"
+		],
+		"linebreak-style": [
+			2,
+			"windows"
+		],
+		"semi": [
+			2,
+			"always"
+		]
+	},
+	"ecmaFeatures": {
+		"modules": true
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"amd": true,
+		"node": true
+	},
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"extends": "eslint:recommended"
+}

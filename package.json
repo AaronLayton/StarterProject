@@ -1,0 +1,41 @@
+{
+  "name": "webpacktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:lint": "eslint ./Content/js --cache",
+    "critical": "node critical.config.js",
+    "dev": "SET WEBPACK_ENV=dev && webpack --watch",
+    "prod": "SET WEBPACK_ENV=prod && webpack --p --colors",
+    "prod:watch": "SET WEBPACK_ENV=prod && webpack --p --colors --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.7.0",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "bower-webpack-plugin": "^0.1.9",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.14.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta.5",
+    "html-webpack-plugin": "^2.26.0",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "penthouse": "^0.10.9",
+    "postcss-apply": "^0.4.0",
+    "postcss-custom-properties": "^5.0.2",
+    "postcss-loader": "^1.2.2",
+    "postcss-smart-import": "^0.6.7",
+    "precss": "^1.4.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.0"
+  }
+}

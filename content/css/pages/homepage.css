@@ -1,0 +1,36 @@
+@import "../_variables.css";
+@import "../bem/some-bem.css";
+@import "../bem/sass-like.css";
+@import "../bem/css-applys.css";
+
+:root {
+  --danger-theme: {
+    color: white;
+    background-color: red;
+  };
+}
+
+
+header {
+    background: var(--background-color);
+    text-align:center;
+
+    h1 {
+        color: #00f;
+    }
+}
+
+.aaron {
+    color: #0f0;
+}
+:fullscreen a {
+    color: #f00;
+    display: flex
+}
+
+.example {
+    display: flex;
+    transition: all .5s;
+    user-select: none;
+    background: linear-gradient(to bottom, white, black);
+}

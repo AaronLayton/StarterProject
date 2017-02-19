@@ -1,0 +1,25 @@
+:root {
+    --aarons-color: #f00;
+
+  --toolbar-theme: {
+    background-color: rebeccapurple;
+    color: white;
+    border: 1px solid green;
+  };
+
+  --toolbar-title-theme: {
+    color: green;
+  };
+}
+
+.Toolbar {
+  @apply --toolbar-theme;
+}
+
+.Toolbar-title {
+  @apply --toolbar-title-theme;
+}
+
+.test {
+    color: var(--aarons-color);
+}
